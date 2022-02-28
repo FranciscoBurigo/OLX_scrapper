@@ -73,7 +73,7 @@ Ou caso preferir pode puxar ela da pasta e utilizar, mas pode ser perdido algum 
 Caso deseje acesso para editar, enviar e-mail para: franciscoburigo@gmail.com.
 
 
-### 💻 Tecnologias Utilizadas
+### Tecnologias 
 
 As principais ferramentes utilizadas no projeto foram:
 
