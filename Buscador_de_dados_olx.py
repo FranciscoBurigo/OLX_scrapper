@@ -10,9 +10,9 @@ from difflib import SequenceMatcher
 from selenium import webdriver
 import time
 from datetime import date
-import re
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+import unidecode 
 
 
 ListaURLS = []
@@ -21,7 +21,8 @@ Dictdt= []
 Dictdd= []
 
 
-#busca URLS dos anuncios e salva em uma lista
+##########busca URLS dos anuncios e salva em uma lista#########
+
 def buscaURLsOLX(pages = 10):
     
     ErroLink = 0
@@ -57,7 +58,7 @@ def buscaURLsOLX(pages = 10):
     print("O numero de links coletados foi:"+ str(N_Pag) + ", não conseguindo coletar um total de " + str(ErroLink))
     return(ListaURLS)
 
-
+#########Pega URLs da lista, e entra em cada para salvar dados desejados#########
 def buscaDadosOLX(ListaURLS):
     N_Pag = len(ListaURLS)
 
@@ -68,7 +69,7 @@ def buscaDadosOLX(ListaURLS):
         
         try:    
        
-        
+            
 
             chrome_options = Options()
             
@@ -98,8 +99,9 @@ def buscaDadosOLX(ListaURLS):
             
            
             for a in range(0, len(ddclass)):
-                Dictdt.append(dtclass[a+ 1].get_text())
-                Dictdd.append(ddclass[a].get_text())
+                Dictdt.append( unidecode.unidecode(dtclass[a+ 1].get_text()))
+                Dictdd.append( unidecode.unidecode(ddclass[a].get_text()))
+                
 
             dict_tamanho_localizacao = dict(zip(Dictdt, Dictdd))
 
@@ -113,12 +115,23 @@ def buscaDadosOLX(ListaURLS):
                 }
             json.update(dict_tamanho_localizacao)
         
-        
+            
 
         
             listaJson.append(json)
 
-            browser.close()
+            #Limpa as listas para que se caso o dado não tenha, não repita o valor anterior
+            Dictdt.clear()
+            Dictdd.clear()
+            
+
+            
+
+            
+
+           
+            
+            
                 
         except:
             print("Erro para pegar dados")
