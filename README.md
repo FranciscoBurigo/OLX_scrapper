@@ -28,7 +28,7 @@ baixar outra versão. Além disso é bom ter um editor para trabalhar no projeto
 algumas bibliotecas que não são nativas.
 
 ### Instalando Bibliotecas
-'''bash
+```bash
 #Instalar pelo terminal/cmd
 $py -m pip install selenium
 
@@ -49,10 +49,10 @@ $py -m pip install lxml
 
 #Instalar pelo terminal/cmd
 $py -m pip install unidecode
-'''
+```
 
 ### Rodando o código
-'''bash
+```bash
 
 # Clona o repositótio 
 $git clone https://github.com/FranciscoBurigo/OLX_scrapper.git
@@ -62,7 +62,7 @@ $cd OLX_scrapper_clone
 
 #Execute a aplicação
 $Buscador_de_dados.py
-'''
+```
 
 Para observar a analise realizada pode ser acessada por:
 
