@@ -19,7 +19,7 @@
 Aquisição de dados de anuncios de terrenos no site [olx](https://www.olx.com.br/) para Florianópolis e região. 
 Obtendo os dados e assim fazendo um análise de de dados basica, podendo comparar preços e ofertas por região.
 
-#Pré-requisitos
+# Pré-requisitos
 
 Antes de começar, é importante ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://gitforwindows.org/), [Pyhton](https://www.python.org/downloads/), navegador [google chrome](https://www.google.com/intl/pt_br/chrome/)
