@@ -61,14 +61,16 @@ $git clone https://github.com/FranciscoBurigo/OLX_scrapper.git
 $cd OLX_scrapper_clone
 
 #Execute a aplicação
-$Buscador_de_dados.py
+$Buscador_de_dados_olx.py
 ```
 
 Para observar a analise realizada pode ser acessada por:
 
 -[Planilha Dados](https://docs.google.com/spreadsheets/d/1FTeiU782t_PxD4oidL8YhtBN_wfLkXTyzRbDgEfBlIQ/edit?usp=sharing)
 
-Ou caso preferir pode puxar ela da pasta e utilizar. 
+Ou caso preferir pode puxar ela da pasta e utilizar, mas pode ser perdido algum dado ou analise devido a importação.
+
+Caso deseje acesso para editar, enviar e-mail para: franciscoburigo@gmail.com.
 
 
 ### 💻 Tecnologias Utilizadas
