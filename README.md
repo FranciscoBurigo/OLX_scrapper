@@ -16,8 +16,8 @@
 
 # Sobre
 
-Aquisição de dados de anuncios de terrenos no site [olx](https://www.olx.com.br/) para Florianópolis e região. 
-Obtendo os dados e assim fazendo um análise de de dados basica, podendo comparar preços e ofertas por região.
+Aquisição de dados de anúncios de terrenos no site [olx](https://www.olx.com.br/) para Florianópolis e região. 
+Obtendo os dados e assim fazendo uma análise de dados básica, podendo comparar preços e ofertas por região.
 
 # Pré-requisitos
 
@@ -64,11 +64,11 @@ $cd OLX_scrapper_clone
 $Buscador_de_dados_olx.py
 ```
 
-Para observar a analise realizada pode ser acessada por:
+Para observar a análise realizada pode ser acessada por:
 
 -[Planilha Dados](https://docs.google.com/spreadsheets/d/1FTeiU782t_PxD4oidL8YhtBN_wfLkXTyzRbDgEfBlIQ/edit?usp=sharing)
 
-Ou caso preferir pode puxar ela da pasta e utilizar, mas pode ser perdido algum dado ou analise devido a importação.
+Ou caso preferir pode puxar ela da pasta e utilizar, mas pode ser perdido algum dado ou análise devido a importação.
 
 Caso deseje acesso para editar, enviar e-mail para: franciscoburigo@gmail.com.
 
